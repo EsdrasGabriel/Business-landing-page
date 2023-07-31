@@ -18,9 +18,10 @@ export default function Home() {
       <>
       <div className="absolute z-0 w-full h-full bg-fixed bg-center bg-no-repeat bg-cover" style={{backgroundImage: "url('assets/background.svg')"}}></div>
 
-      <header className='relative z-10 w-full'>
+      <header className='sticky top-0 z-50 w-full'>
+        <div className="absolute z-0 flex items-center justify-center w-full h-[100%] bg-zinc-400" ></div>
         <div className="flex flex-col w-screen">
-          <nav className='flex items-center justify-between mx-8 my-4'>
+          <nav className='z-50 flex items-center justify-between mx-8'>
               <div>
                 <Image 
                 className='m-3'
@@ -58,7 +59,7 @@ export default function Home() {
         </div>
       </header>
 
-      <div className="relative z-10 flex flex-col h-auto gap-16 mx-5 text-white mb-[30rem] 2xl:mb-[35rem]">
+      <div className="relative z-0 flex flex-col h-auto gap-16 mx-5 text-white mb-[30rem] 2xl:mb-[35rem]">
         <div className="flex flex-col items-center gap-12 mx-3 my-12">
           <h2 className="text-5xl text-center font-regular md:text-7xl md:font-bold">The best products start with Figma</h2>
           <h4 className="text-2xl text-center font-regular w-60 md:text-3xl md:w-96">Most calendars are designed for teams. Slate is designed for freelancers</h4>
