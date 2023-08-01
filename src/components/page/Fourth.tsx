@@ -47,8 +47,8 @@ export function Fourth() {
           <p className="text-lg text-zinc-600 font-regular">Available exclusivery on Figmaland</p>
         </div>
 
-        <div className="py-10">
-          <form action="" className='flex flex-col gap-3'>
+        <div className="w-full py-10">
+          <form action="" className='flex flex-col w-full gap-3 pl-3'>
             <input type="email" placeholder='Your Email' className="py-5 border-2 rounded-full px-9 border-zinc-200 placeholder:text-zinc-600" />
             <button type="submit" className="px-32 py-5 text-xl text-white bg-blue-500 rounded-full font-regular">Subscribe</button>
           </form>

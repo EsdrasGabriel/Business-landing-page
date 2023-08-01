@@ -27,7 +27,7 @@ export function Eighth() {
             ))}
           </div>
 
-          <div className="flex flex-col items-start gap-16 px-3 text-base w-96 font-regular text-zinc-600 xl:flex-row-reverse xl:w-full">
+          <div className="flex flex-col items-start w-full gap-16 px-3 text-base font-regular text-zinc-600 xl:flex-row-reverse">
             <div className="flex flex-col gap-16">
               <div className="flex flex-col gap-4 xl:flex-row">
                 <div className="flex gap-3 xl:flex-col xl:items-center xl:w-full">
@@ -72,7 +72,7 @@ export function Eighth() {
                 />
               </div>
             </div>
-            <div className="flex flex-col items-center justify-center border shadow-xl px-9 rounded-3xl py-14 gap-11">
+            <div className="flex flex-col items-center justify-center border shadow-xl w-80 px-9 rounded-3xl py-14 gap-11">
               <h4 className="text-2xl font-bold text-zinc-800">Contact Us</h4>
 
               <form action="" className="flex flex-col items-center justify-center gap-9 drop-shadow-md xl:items-start">
